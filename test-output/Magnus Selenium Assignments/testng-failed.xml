@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Magnus Selenium Assignments]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Magnus application scenarios(failed)">
+    <classes>
+      <class name="assignments.MiscellaneousScenarios">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="hoverMenuAndOpenSubMenu"/>
+          <include name="expandCollapsibleContent"/>
+        </methods>
+      </class> <!-- assignments.MiscellaneousScenarios -->
+      <class name="assignments.WebElementOperations">
+        <methods>
+          <include name="textBoxOperations"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="saveAndCancelButtonsOnEmployeeCreate"/>
+          <include name="checkBoxOperations"/>
+        </methods>
+      </class> <!-- assignments.WebElementOperations -->
+      <class name="assignments.PopupsAndWindows">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="inWindowModalCanBeOpenedAndClosed"/>
+          <include name="confirmationAlertCanBeAcceptedAndDismissed"/>
+          <include name="promptAlertAcceptsText"/>
+        </methods>
+      </class> <!-- assignments.PopupsAndWindows -->
+      <class name="framework.tests.EmployeeTest">
+        <methods>
+          <include name="employeeCreateFormExposesRadioCheckboxAndDropdownControls"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="employeeCreateFormAcceptsTextAndSelection"/>
+        </methods>
+      </class> <!-- framework.tests.EmployeeTest -->
+    </classes>
+  </test> <!-- Magnus application scenarios(failed) -->
+</suite> <!-- Failed suite [Magnus Selenium Assignments] -->

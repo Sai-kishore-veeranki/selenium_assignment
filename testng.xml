@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Magnus Selenium Assignments" parallel="false">
+    <test name="Magnus application scenarios">
+        <classes>
+            <class name="assignments.SeleniumLocators"/>
+            <class name="assignments.WebElementOperations"/>
+            <class name="assignments.WebDriverMethods"/>
+            <class name="assignments.PopupsAndWindows"/>
+            <class name="assignments.MiscellaneousScenarios"/>
+            <class name="assignments.MagnusTestNGSuite"/>
+            <class name="framework.tests.EmployeeTest"/>
+        </classes>
+    </test>
+</suite>
